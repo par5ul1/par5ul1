@@ -1,6 +1,6 @@
 <div align="center">
 	<br>
-		<img src="readme.svg" width="800" height="500">
+		<img src="readme.svg" width="650" height="550">
 	<br>
 	<h3>Some of my favorite projects: </h3>
 	<br>
