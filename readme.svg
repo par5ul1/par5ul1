@@ -1,58 +1,76 @@
 <svg fill="none" viewBox="0 0 800 400" width="800" height="400" xmlns="http://www.w3.org/2000/svg">
-	<foreignObject width="100%" height="100%">
-		<div xmlns="http://www.w3.org/1999/xhtml">
-			<style>
-			  @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
 
-			  @keyframes wave {
-			    0% {
-			    transform: rotate( 0.0deg)
-			    }
-			    10% {
-			    transform: rotate(14.0deg)
-			    }
-			    20% {
-			    transform: rotate(-8.0deg)
-			    }
-			    30% {
-			    transform: rotate(14.0deg) scale(1.25)
-			    }
-			    40% {
-			    transform: rotate(-4.0deg) scale(1)
-			    }
-			    50% {
-			    transform: rotate(10.0deg)
-			    }
-			    60% {
-			    transform: rotate( 0.0deg)
-			    }
-			    100% {
-			    transform: rotate( 0.0deg)
-			    }
-			  }
+        @keyframes wave {
+          0% {
+            transform: rotate(0.0deg)
+          }
 
-			  * {
-			    font-family: "Open Sans";
-			  }
+          10% {
+            transform: rotate(14.0deg)
+          }
 
-			  h3 {
-			    font-weight: 500;
-			  }
+          20% {
+            transform: rotate(-8.0deg)
+          }
 
-			  .waving-hand {
-			    display: inline-block;
-			    animation: wave 1s ease-in-out;
-			  }
-			</style>
+          30% {
+            transform: rotate(14.0deg) scale(1.25)
+          }
 
-			<div>
-			  <h3>
-			    Hey <span class="waving-hand">👋🏼</span> <\br> Thanks for checking out my profile! Here's a little bit about me:
-			  </h3>
-			  <p>
+          40% {
+            transform: rotate(-4.0deg) scale(1)
+          }
 
-			  </p>
-			</div>
-		</div>
-	</foreignObject>
+          50% {
+            transform: rotate(10.0deg)
+          }
+
+          60% {
+            transform: rotate(0.0deg)
+          }
+
+          100% {
+            transform: rotate(0.0deg)
+          }
+        }
+
+        * {
+          font-family: "Open Sans";
+        }
+
+        h3 {
+          font-weight: 500;
+        }
+
+        .container {
+          width: 90%;
+          display: flex;
+          flex-direction: column;
+          box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+          border-radius: 10px;
+          padding: 10px;
+        }
+
+        .waving-hand {
+          display: inline-block;
+          animation: wave 1s ease-in-out;
+        }
+      </style>
+      <div class="container">
+        <h3>
+          Hey <span class="waving-hand">👋🏼</span>
+        </h3>
+        <h4>
+          Thanks for checking out my profile! Here's a little bit about me:
+        </h4>
+        <p>
+
+        </p>
+      </div>
+    </div>
+  </foreignObject>
 </svg>
