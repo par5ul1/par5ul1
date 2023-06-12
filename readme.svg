@@ -1,0 +1,87 @@
+<svg fill="none" viewBox="0 0 800 400" width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        @keyframes wave {
+          0% {
+            transform: rotate(0.0deg)
+          }
+
+          10% {
+            transform: rotate(14.0deg)
+          }
+
+          20% {
+            transform: rotate(-8.0deg)
+          }
+
+          30% {
+            transform: rotate(14.0deg) scale(1.25)
+          }
+
+          40% {
+            transform: rotate(-4.0deg) scale(1)
+          }
+
+          50% {
+            transform: rotate(10.0deg)
+          }
+
+          60% {
+            transform: rotate(0.0deg)
+          }
+
+          100% {
+            transform: rotate(0.0deg)
+          }
+        }
+
+        * {
+          color: #252525;
+          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji"
+        }
+
+        .container {
+          width: 80%;
+          background: #dccc71;
+          display: flex;
+          flex-direction: column;
+          box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+          border-radius: 10px;
+          padding: 30px;
+        }
+
+        .waving-hand {
+          display: inline-block;
+          animation: wave 2s ease-in-out;
+        }
+      </style>
+      <div class="container">
+        <h3>
+          Hey <span class="waving-hand">👋🏼</span>
+        </h3>
+        <h4>
+          Thanks for checking out my profile! Here's a little bit about me:
+        </h4>
+        <p>
+          💻 I'm a Software Engineer based in San Francisco
+        </p>
+        <p>
+          🎓 I graduated Summa Cum Laude with a B.S. in Computer Science
+        </p>
+        <p>
+          🔧 I love working on all sorts of random projects
+        </p>
+        <p>
+          🌍 I've lived all over the globe and can speak 5 languages
+        </p>
+        <p>
+          🎥 I'm also a filmmaker and huge film nerd
+        </p>
+        <p>
+          ○ My favorite color is yellow
+        </p>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
