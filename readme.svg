@@ -16,7 +16,7 @@
           }
 
           30% {
-            transform: rotate(14.0deg) scale(1.25)
+            transform: rotate(14.0deg) scale(1.5)
           }
 
           40% {
@@ -61,7 +61,7 @@
 
         .waving-hand {
           display: inline-block;
-          animation: wave 2s ease-in-out;
+          animation: wave 3s ease-in-out;
         }
       </style>
       <main>
