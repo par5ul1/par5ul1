@@ -35,6 +35,18 @@
             transform: rotate(0.0deg)
           }
         }
+        
+        @keyframes gradientAnimation {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
 
         * {
           color: #252525;
@@ -51,7 +63,9 @@
 
         .container {
           width: 80%;
-          background: #dccc71;
+          background: radial-gradient(circle, #FDFD96, #ffda00);
+          background-size: 200% 100%;
+          animation: gradientAnimation 4s ease-in-out infinite;
           display: flex;
           flex-direction: column;
           box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
