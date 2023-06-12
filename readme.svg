@@ -40,6 +40,14 @@
           color: #252525;
           font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji"
         }
+        
+        main {
+          width: 800px;
+          height: 800px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
 
         .container {
           width: 80%;
@@ -56,6 +64,7 @@
           animation: wave 2s ease-in-out;
         }
       </style>
+      <main>
       <div class="container">
         <h3>
           Hey <span class="waving-hand">👋🏼</span>
@@ -82,6 +91,7 @@
           ○ My favorite color is yellow
         </p>
       </div>
+      </main>
     </div>
   </foreignObject>
 </svg>
