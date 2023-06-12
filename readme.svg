@@ -1,4 +1,4 @@
-<svg fill="none" viewBox="0 0 800 600" width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" viewBox="0 0 650 550" width="650" height="550" xmlns="http://www.w3.org/2000/svg">
   <foreignObject width="100%" height="100%">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>
@@ -42,8 +42,8 @@
         }
         
         main {
-          width: 800px;
-          height: 600px;
+          width: 650px;
+          height: 550px;
           display: flex;
           align-items: center;
           justify-content: center;
